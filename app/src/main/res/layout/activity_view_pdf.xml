@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewPDF">
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_pdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/pdf_viewer"
+            android:layout_width="300dp"
+            android:layout_height="350dp"
+            android:layout_centerHorizontal="true">
+        </com.github.barteksc.pdfviewer.PDFView>
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/ocr_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/button_ocr" />
+
+
+    <TextView
+        android:id="@+id/text_view_ocr"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginLeft="5dp"
+        android:scrollbars="vertical" />
+
+
+</LinearLayout>

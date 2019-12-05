@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OCR</string>
+    <string name="button_upload">Upload PDF</string>
+    <string name="button_ocr">OCR This Page</string>
+</resources>
